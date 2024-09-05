@@ -19,7 +19,7 @@ int main()
             mx=arr[i];
         }
     }
-    int second_max = INT_MIN;
+    int second_max = 0;
     for (int i = 0; i < n; i++)
     {
         if(arr[i] != mx){
